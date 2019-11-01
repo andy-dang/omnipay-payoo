@@ -1,2 +1,2 @@
 # omnipay-payoo
-integration payoo with omipay
+Payoo gateway for Omnipay payment library
