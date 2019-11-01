@@ -8,7 +8,7 @@ Payoo Payment driver for the Omnipay PHP payment processing library
 [![Packagist Status](https://img.shields.io/packagist/v/andy-dang/omnipay-payoo.svg)](https://packagist.org/packages/andy-dang/omnipay-payoo)
 [![Packagist Downloads](https://img.shields.io/packagist/dt/andy-dang/omnipay-payoo.svg)](https://packagist.org/packages/andy-dang/omnipay-payoo)
 
-Omnipay is a framework agnostic, multi-gateway payment processing library for PHP 5.3+. This package implements Momo Mobile Payment support for Omnipay.
+Omnipay is a framework agnostic, multi-gateway payment processing library for PHP 5.3+. This package implements Payoo Payment driver support for Omnipay.
 
 ## Installation
 Omnipay is installed via [Composer](http://getcomposer.org/). To install, add it to your composer.json file:
