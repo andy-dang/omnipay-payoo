@@ -16,7 +16,7 @@ Omnipay is installed via Composer. To install, add it to your composer.json file
 ```json
 {
     "require": {
-        "labs7in0/omnipay-wechat": "dev-master"
+        "andy-dang/omnipay-payoo": "dev-master"
     }
 }
 ```
