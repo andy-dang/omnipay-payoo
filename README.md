@@ -2,10 +2,10 @@
 Payoo gateway for Omnipay PHP payment processing library
 
 [![Build Status](https://img.shields.io/badge/project-deprecated-red.svg)](https://github.com/andy-dang/omnipay-payoo)
-[![Build Status](https://img.shields.io/travis/labs7in0/omnipay-wechat.svg)](https://travis-ci.org/andy-dang/omnipay-payoo)
-[![Coverage Status](https://img.shields.io/codecov/c/github/labs7in0/omnipay-wechat.svg)](https://codecov.io/github/andy-dang/omnipay-payoo)
-[![Packagist Status](https://img.shields.io/packagist/v/labs7in0/omnipay-wechat.svg)](https://packagist.org/packages/andy-dang/omnipay-payoo)
-[![Packagist Downloads](https://img.shields.io/packagist/dt/labs7in0/omnipay-wechat.svg)](https://packagist.org/packages/andy-dang/omnipay-payoo)
+[![Build Status](https://img.shields.io/travis/andy-dang/omnipay-payoo.svg)](https://travis-ci.org/andy-dang/omnipay-payoo)
+[![Coverage Status](https://img.shields.io/codecov/c/github/andy-dang/omnipay-payoo.svg)](https://codecov.io/github/andy-dang/omnipay-payoo)
+[![Packagist Status](https://img.shields.io/packagist/v/andy-dang/omnipay-payoo.svg)](https://packagist.org/packages/andy-dang/omnipay-payoo)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/andy-dang/omnipay-payoo.svg)](https://packagist.org/packages/andy-dang/omnipay-payoo)
 
 Omnipay is a framework agnostic, multi-gateway payment processing library for PHP 5.3+. This package implements Momo Mobile Payment support for Omnipay.
 
