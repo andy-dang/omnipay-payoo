@@ -1,5 +1,7 @@
-# omnipay-payoo
-Payoo gateway for Omnipay PHP payment processing library
+Omnipay-Payoo
+===
+
+Payoo Payment driver for the Omnipay PHP payment processing library
 
 [![Build Status](https://img.shields.io/travis/andy-dang/omnipay-payoo.svg)](https://travis-ci.org/andy-dang/omnipay-payoo)
 [![Coverage Status](https://img.shields.io/codecov/c/github/andy-dang/omnipay-payoo.svg)](https://codecov.io/github/andy-dang/omnipay-payoo)
