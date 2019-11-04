@@ -85,6 +85,9 @@ class Gateway extends AbstractGateway
 
         if (empty($parameters['payment_url'])) {
             $res = $this->prePurchase($parameters)->send();
+            if (empty($res)) {
+                throw new \RuntimeException('this payment gateway is not available right now.');
+            }
         }
         return $this->createRequest('\Omnipay\Payoo\Message\PurchaseRequest', $res);
     }

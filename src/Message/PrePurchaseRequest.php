@@ -16,7 +16,7 @@ use Symfony\Component\HttpFoundation\ParameterBag;
 class PrePurchaseRequest extends AbstractRequest
 {
 
-    private $endPointProduction = 'https://www.payoo.vn/v2/paynow/';
+    private $endPointProduction = 'https://www.payoo.vn/v2/paynow/order/create';
     private $endPointSandbox = 'https://newsandbox.payoo.com.vn/v2/paynow/order/create';
     const RULE_DES_MIN_LENGTH = 50;
 
@@ -43,11 +43,12 @@ class PrePurchaseRequest extends AbstractRequest
 
         $secretKey = $this->getSecretKey();
 
-        $secretKey = 'ee655db230291d5c53bcd5170c0f257e';
+        $shopDomain = $this->getShopDomain();
+
         return [
-            'refer' => 'http://google.com',
+            'refer' => $shopDomain,
             'method' => NULL,
-            'bank' => 'ABB',
+            'bank' => NULL,
             'data' => $orderXml,
             'checksum' => hash('sha512', $secretKey . $orderXml),
         ];
