@@ -16,6 +16,7 @@ Omnipay is installed via [Composer](http://getcomposer.org/). To install, add it
 ```json
 {
     "require": {
+        "omnipay/common": "3.0.1",
         "andy-dang/omnipay-payoo": "dev-master"
     }
 }
