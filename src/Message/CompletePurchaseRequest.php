@@ -54,6 +54,7 @@ class CompletePurchaseRequest extends AbstractRequest
                 $this->readNodeValue($dataDoc, 'OrderNo') :
                 $this->readNodeValue($dataDoc, 'order_no'),
             'state' => $this->readNodeValue($dataDoc, 'State'),
+            'payment_method' => $this->readNodeValue($dataDoc, 'PaymentMethod'),
             'signature' => $signature,
             'computed_checksum' => $this->computedSignature($dataDoc, $keyFields),
             'method' => 'post',
